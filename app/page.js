@@ -1,6 +1,4 @@
 'use client'
-
-
 import React, { useState } from 'react';
 import { add, isWeekend, format } from 'date-fns';
 
@@ -46,7 +44,7 @@ export default function Home() {
      
       <div>
       <label>
-        Working Days:
+       Number (Working Days):
         <input
         className='text-black font-semibold mx-3 w-[100px]'
           type="number"
